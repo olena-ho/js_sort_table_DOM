@@ -1,0 +1,2 @@
+document.querySelector("thead").addEventListener("click",function(e){if("TH"===e.target.tagName){var t=e.target.cellIndex,r=Array.from(document.querySelectorAll("tbody tr")).sort(function(e,r){var n=e.children[t].textContent,o=r.children[t].textContent;return n.localeCompare(o)}),n=document.querySelector("tbody");r.forEach(function(e){return n.appendChild(e)})}});
+//# sourceMappingURL=index.27497628.js.map
